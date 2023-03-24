@@ -1,8 +1,8 @@
 import "./WorkCardStyles.css"
 
 import React from 'react'
-import pro1 from "../assets/img2.JPG"
-import { NavLink } from "react-router-dom"
+// import pro1 from "../assets/img2.JPG"
+// import { NavLink } from "react-router-dom"
 import WorkCard from "./WorkCard"
 import WorkCardData from "./WorkCardData"
 
