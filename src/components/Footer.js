@@ -1,7 +1,8 @@
 import "./FooterStyles.css"
 
 import React from 'react'
-import { FaFacebookF, FaHome, FaLinkedinIn, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa"
+import { FaFacebookF, FaGithub, FaHome, FaLinkedinIn, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa"
+import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -32,9 +33,10 @@ const Footer = () => {
                 <h4>About the Ccompany.</h4>
                 <p>This is me Abdul Basit Asghar. Full stack Developer. I enjoy discussing new projects and design challenges.</p>
                 <div className="social">
-                    <FaFacebookF size={20} style={{color: "#fff", marginRight: "1rem"}}/>
-                    <FaTwitter size={20} style={{color: "#fff", marginRight: "1rem"}}/>
-                    <FaLinkedinIn size={20} style={{color: "#fff", marginRight: "1rem"}}/>
+                    <Link to="https://www.facebook.com/abdulbasit11420/"><FaFacebookF size={20} style={{color: "#fff", marginRight: "1rem"}}/></Link>
+                    <Link to="https://twitter.com/basit_asghar"><FaTwitter size={20} style={{color: "#fff", marginRight: "1rem"}}/></Link>
+                    <Link to="https://www.linkedin.com/in/abdul-basit-asghar-68aa0a190/"><FaLinkedinIn size={20} style={{color: "#fff", marginRight: "1rem"}}/></Link>
+                    <Link to="https://github.com/abdulbasit200"><FaGithub size={20} style={{color: "#fff", marginRight: "1rem"}}/></Link>
                 </div>
             </div>
         </div>
